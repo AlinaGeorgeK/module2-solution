@@ -1,0 +1,95 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  margin: 20px;
+}
+
+h1{
+	text-align: center;
+}
+
+@media (min-width: 992px) {
+		div.container{
+		    -webkit-column-count: 3; 
+		    -moz-column-count: 3; 
+		    column-count: 3;
+		}
+	
+}
+
+
+
+h2{
+	text-align: center;
+	border-style: solid;
+	border-color: black;
+	width: 35%;
+	margin-bottom: 10px;
+	margin-top: 0px;
+	margin-left: 100%;
+	border-top: none;
+	border-right: none;
+	float:right;
+	border-width: 1px;
+
+	
+}
+
+.pink {
+	background-color: green;	
+}
+.red {
+	background-color: red;
+	color: white;
+}
+.yellow {
+	background-color: yellow;
+}
+article {
+	background-color: gray;
+	border-color: black;
+	border-style: solid;
+	display: inline-block;
+	border-width: 1px;
+
+	margin: 5px;
+	margin-top: 20px;
+	
+}
+
+p {
+	background: gray;
+	padding: 15px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	body 
+	.1 {
+		margin: 10px;
+		margin-right: none;
+		width: 47%;
+	}
+
+	.2 {
+		margin: 10px;
+		float:right;
+		width: 47%;
+	}
+
+	.3 {
+		margin: 10px;
+		margin-top: 20px;
+	}
+
+	.yellow {
+		width: 17%;
+	}
+
+}
+
+@media (max-width: 767px) {
+	body {
+		margin: 40px;
+		margin-top: 30px;
+	}
